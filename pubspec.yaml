@@ -1,0 +1,105 @@
+name: wms_regijaya
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0+16
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  app_links: ^6.4.0
+  auto_route: ^10.0.1
+  bloc: ^9.0.0
+  bloc_concurrency: ^0.3.0
+  dio: ^5.8.0+1
+  dotted_border: ^2.1.0
+  equatable: ^2.0.7
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_easyloading: ^3.0.5
+  flutter_localization: ^0.3.2
+  flutter_localizations:
+    sdk: flutter
+  flutter_secure_storage: ^9.2.4
+  firebase_core: ^3.15.2
+  firebase_messaging: ^15.2.10
+  get_it: ^8.0.3
+  image_picker: ^1.1.2
+  infinite_scroll_pagination: ^5.0.0
+  internet_connection_checker: ^3.0.1
+  intl: ^0.19.0
+  nested: ^1.0.0
+  open_filex: ^4.7.0
+  path_provider: ^2.1.5
+  permission_handler: ^12.0.0+1
+  qr_code_scanner_plus: ^2.0.10+1
+  sqflite: ^2.4.2
+  syncfusion_flutter_core: ^29.2.7
+  syncfusion_flutter_pdfviewer: ^29.2.7
+  url_launcher: ^6.3.1
+  uuid: ^4.5.1
+  package_info_plus: ^8.3.0
+  flutter_svg: ^2.2.0
+  mockito: ^5.4.6 
+
+dev_dependencies:
+  auto_route_generator: ^10.0.1
+  build_runner: ^2.4.15
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+dependency_overrides:
+  source_gen: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/icons/
+    - assets/pdf/
+    - assets/fonts/
+    - assets/images/
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter_18pt-Regular.ttf
+        - asset: assets/fonts/Inter_18pt-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Inter_18pt-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Inter_18pt-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Inter_18pt-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter_18pt-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Inter_18pt-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Inter_18pt-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Inter_18pt-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Inter_18pt-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/Inter_18pt-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter_18pt-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Inter_18pt-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter_18pt-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Inter_18pt-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Inter_18pt-BlackItalic.ttf
+          weight: 900
+          style: italic
